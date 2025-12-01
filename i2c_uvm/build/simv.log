@@ -1,0 +1,1106 @@
+Command: /home/hedu16/dev/i2c_uvm/././build/simv +UVM_TESTNAME=test -l ././build/simv.log +fsdbfile+./build/wave.fsdb
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Nov 16 17:09 2025
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+*Verdi* Loading libsscore_vcs202409.so
+FSDB Dumper for VCS, Release Verdi_W-2024.09-SP2, Linux x86_64/64bit, 03/03/2025
+(C) 1996 - 2025 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file './build/wave.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* WARNING: Env/runtime option has specified fsdbfile name as "./build/wave.fsdb". Fsdbfile name in task "wave.fsdb" is ignored.
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 10000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:62
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 400065000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:62, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 400075000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:62, rx_data:62
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 400075000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (1/1) *** tx_data:62, rx_data:62
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 400075000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:114
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 800135000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:114, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 800145000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:114, rx_data:114
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 800145000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (2/2) *** tx_data:114, rx_data:114
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 800145000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:151
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 1200205000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:151, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 1200215000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:151, rx_data:151
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 1200215000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (3/3) *** tx_data:151, rx_data:151
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 1200215000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:244
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 1600275000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:244, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 1600285000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:244, rx_data:244
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 1600285000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (4/4) *** tx_data:244, rx_data:244
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 1600285000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:31
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 2000345000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:31, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 2000355000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:31, rx_data:31
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 2000355000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (5/5) *** tx_data:31, rx_data:31
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 2000355000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:36
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 2400415000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:36, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 2400425000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:36, rx_data:36
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 2400425000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (6/6) *** tx_data:36, rx_data:36
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 2400425000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:201
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 2800485000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:201, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 2800495000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:201, rx_data:201
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 2800495000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (7/7) *** tx_data:201, rx_data:201
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 2800495000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:167
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 3200555000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:167, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 3200565000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:167, rx_data:167
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 3200565000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (8/8) *** tx_data:167, rx_data:167
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 3200565000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:102
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 3600625000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:102, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 3600635000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:102, rx_data:102
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 3600635000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (9/9) *** tx_data:102, rx_data:102
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 3600635000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:121
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 4000695000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:121, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 4000705000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:121, rx_data:121
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 4000705000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (10/10) *** tx_data:121, rx_data:121
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 4000705000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 4400765000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:233, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 4400775000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:233, rx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 4400775000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (11/11) *** tx_data:233, rx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 4400775000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:204
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 4800835000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:204, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 4800845000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:204, rx_data:204
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 4800845000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (12/12) *** tx_data:204, rx_data:204
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 4800845000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:61
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 5200905000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:61, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 5200915000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:61, rx_data:61
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 5200915000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (13/13) *** tx_data:61, rx_data:61
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 5200915000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:187
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 5600975000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:187, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 5600985000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:187, rx_data:187
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 5600985000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (14/14) *** tx_data:187, rx_data:187
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 5600985000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:154
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 6001045000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:154, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 6001055000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:154, rx_data:154
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 6001055000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (15/15) *** tx_data:154, rx_data:154
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 6001055000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:97
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 6401115000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:97, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 6401125000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:97, rx_data:97
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 6401125000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (16/16) *** tx_data:97, rx_data:97
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 6401125000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:119
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 6801185000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:119, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 6801195000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:119, rx_data:119
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 6801195000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (17/17) *** tx_data:119, rx_data:119
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 6801195000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:39
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 7201255000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:39, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 7201265000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:39, rx_data:39
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 7201265000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (18/18) *** tx_data:39, rx_data:39
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 7201265000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:39
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 7601325000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:39, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 7601335000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:39, rx_data:39
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 7601335000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (19/19) *** tx_data:39, rx_data:39
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 7601335000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:3
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 8001395000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:3, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 8001405000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:3, rx_data:3
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 8001405000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (20/20) *** tx_data:3, rx_data:3
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 8001405000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:37
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 8401465000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:37, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 8401475000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:37, rx_data:37
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 8401475000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (21/21) *** tx_data:37, rx_data:37
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 8401475000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 8801535000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:197, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 8801545000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:197, rx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 8801545000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (22/22) *** tx_data:197, rx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 8801545000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:80
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 9201605000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:80, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 9201615000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:80, rx_data:80
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 9201615000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (23/23) *** tx_data:80, rx_data:80
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 9201615000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 9601675000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:23, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 9601685000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:23, rx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 9601685000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (24/24) *** tx_data:23, rx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 9601685000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:131
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 10001745000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:131, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 10001755000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:131, rx_data:131
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 10001755000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (25/25) *** tx_data:131, rx_data:131
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 10001755000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 10401815000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:186, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 10401825000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:186, rx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 10401825000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (26/26) *** tx_data:186, rx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 10401825000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 10801885000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:186, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 10801895000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:186, rx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 10801895000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (27/27) *** tx_data:186, rx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 10801895000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:128
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 11201955000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:128, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 11201965000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:128, rx_data:128
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 11201965000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (28/28) *** tx_data:128, rx_data:128
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 11201965000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:122
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 11602025000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:122, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 11602035000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:122, rx_data:122
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 11602035000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (29/29) *** tx_data:122, rx_data:122
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 11602035000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 12002095000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:23, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 12002105000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:23, rx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 12002105000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (30/30) *** tx_data:23, rx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 12002105000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 12402165000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:186, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 12402175000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:186, rx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 12402175000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (31/31) *** tx_data:186, rx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 12402175000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:89
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 12802235000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:89, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 12802245000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:89, rx_data:89
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 12802245000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (32/32) *** tx_data:89, rx_data:89
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 12802245000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:181
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 13202305000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:181, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 13202315000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:181, rx_data:181
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 13202315000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (33/33) *** tx_data:181, rx_data:181
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 13202315000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 13602375000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:24, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 13602385000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:24, rx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 13602385000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (34/34) *** tx_data:24, rx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 13602385000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:219
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 14002445000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:219, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 14002455000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:219, rx_data:219
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 14002455000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (35/35) *** tx_data:219, rx_data:219
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 14002455000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:117
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 14402515000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:117, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 14402525000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:117, rx_data:117
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 14402525000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (36/36) *** tx_data:117, rx_data:117
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 14402525000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:57
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 14802585000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:57, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 14802595000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:57, rx_data:57
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 14802595000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (37/37) *** tx_data:57, rx_data:57
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 14802595000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:109
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 15202655000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:109, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 15202665000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:109, rx_data:109
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 15202665000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (38/38) *** tx_data:109, rx_data:109
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 15202665000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 15602725000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:220, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 15602735000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:220, rx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 15602735000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (39/39) *** tx_data:220, rx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 15602735000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:89
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 16002795000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:89, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 16002805000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:89, rx_data:89
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 16002805000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (40/40) *** tx_data:89, rx_data:89
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 16002805000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 16402865000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:197, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 16402875000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:197, rx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 16402875000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (41/41) *** tx_data:197, rx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 16402875000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:53
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 16802935000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:53, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 16802945000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:53, rx_data:53
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 16802945000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (42/42) *** tx_data:53, rx_data:53
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 16802945000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:237
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 17203005000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:237, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 17203015000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:237, rx_data:237
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 17203015000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (43/43) *** tx_data:237, rx_data:237
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 17203015000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 17603075000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:209, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 17603085000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:209, rx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 17603085000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (44/44) *** tx_data:209, rx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 17603085000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:95
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 18003145000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:95, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 18003155000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:95, rx_data:95
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 18003155000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (45/45) *** tx_data:95, rx_data:95
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 18003155000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:157
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 18403215000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:157, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 18403225000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:157, rx_data:157
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 18403225000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (46/46) *** tx_data:157, rx_data:157
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 18403225000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:148
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 18803285000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:148, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 18803295000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:148, rx_data:148
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 18803295000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (47/47) *** tx_data:148, rx_data:148
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 18803295000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:86
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 19203355000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:86, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 19203365000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:86, rx_data:86
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 19203365000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (48/48) *** tx_data:86, rx_data:86
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 19203365000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:213
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 19603425000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:213, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 19603435000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:213, rx_data:213
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 19603435000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (49/49) *** tx_data:213, rx_data:213
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 19603435000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 20003495000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:23, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 20003505000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:23, rx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 20003505000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (50/50) *** tx_data:23, rx_data:23
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 20003505000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:26
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 20403565000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:26, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 20403575000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:26, rx_data:26
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 20403575000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (51/51) *** tx_data:26, rx_data:26
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 20403575000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:135
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 20803635000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:135, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 20803645000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:135, rx_data:135
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 20803645000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (52/52) *** tx_data:135, rx_data:135
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 20803645000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:140
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 21203705000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:140, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 21203715000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:140, rx_data:140
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 21203715000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (53/53) *** tx_data:140, rx_data:140
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 21203715000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:236
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 21603775000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:236, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 21603785000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:236, rx_data:236
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 21603785000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (54/54) *** tx_data:236, rx_data:236
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 21603785000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 22003845000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:238, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 22003855000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:238, rx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 22003855000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (55/55) *** tx_data:238, rx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 22003855000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 22403915000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:217, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 22403925000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:217, rx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 22403925000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (56/56) *** tx_data:217, rx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 22403925000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 22803985000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:238, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 22803995000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:238, rx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 22803995000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (57/57) *** tx_data:238, rx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 22803995000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 23204055000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:252, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 23204065000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:252, rx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 23204065000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (58/58) *** tx_data:252, rx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 23204065000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 23604125000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:1, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 23604135000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:1, rx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 23604135000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (59/59) *** tx_data:1, rx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 23604135000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 24004195000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:223, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 24004205000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:223, rx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 24004205000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (60/60) *** tx_data:223, rx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 24004205000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 24404265000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:1, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 24404275000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:1, rx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 24404275000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (61/61) *** tx_data:1, rx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 24404275000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:27
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 24804335000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:27, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 24804345000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:27, rx_data:27
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 24804345000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (62/62) *** tx_data:27, rx_data:27
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 24804345000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 25204405000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:209, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 25204415000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:209, rx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 25204415000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (63/63) *** tx_data:209, rx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 25204415000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:222
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 25604475000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:222, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 25604485000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:222, rx_data:222
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 25604485000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (64/64) *** tx_data:222, rx_data:222
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 25604485000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:19
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 26004545000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:19, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 26004555000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:19, rx_data:19
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 26004555000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (65/65) *** tx_data:19, rx_data:19
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 26004555000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 26404615000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:235, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 26404625000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:235, rx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 26404625000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (66/66) *** tx_data:235, rx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 26404625000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:248
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 26804685000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:248, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 26804695000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:248, rx_data:248
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 26804695000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (67/67) *** tx_data:248, rx_data:248
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 26804695000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:95
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 27204755000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:95, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 27204765000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:95, rx_data:95
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 27204765000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (68/68) *** tx_data:95, rx_data:95
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 27204765000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 27604825000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:209, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 27604835000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:209, rx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 27604835000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (69/69) *** tx_data:209, rx_data:209
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 27604835000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:225
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 28004895000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:225, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 28004905000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:225, rx_data:225
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 28004905000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (70/70) *** tx_data:225, rx_data:225
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 28004905000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:132
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 28404965000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:132, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 28404975000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:132, rx_data:132
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 28404975000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (71/71) *** tx_data:132, rx_data:132
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 28404975000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:25
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 28805035000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:25, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 28805045000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:25, rx_data:25
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 28805045000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (72/72) *** tx_data:25, rx_data:25
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 28805045000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 29205105000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:235, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 29205115000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:235, rx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 29205115000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (73/73) *** tx_data:235, rx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 29205115000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:172
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 29605175000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:172, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 29605185000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:172, rx_data:172
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 29605185000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (74/74) *** tx_data:172, rx_data:172
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 29605185000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 30005245000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:220, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 30005255000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:220, rx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 30005255000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (75/75) *** tx_data:220, rx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 30005255000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 30405315000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:107, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 30405325000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 30405325000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (76/76) *** tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 30405325000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:131
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 30805385000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:131, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 30805395000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:131, rx_data:131
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 30805395000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (77/77) *** tx_data:131, rx_data:131
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 30805395000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:103
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 31205455000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:103, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 31205465000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:103, rx_data:103
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 31205465000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (78/78) *** tx_data:103, rx_data:103
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 31205465000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:45
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 31605525000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:45, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 31605535000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:45, rx_data:45
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 31605535000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (79/79) *** tx_data:45, rx_data:45
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 31605535000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:202
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 32005595000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:202, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 32005605000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:202, rx_data:202
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 32005605000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (80/80) *** tx_data:202, rx_data:202
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 32005605000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:64
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 32405665000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:64, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 32405675000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:64, rx_data:64
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 32405675000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (81/81) *** tx_data:64, rx_data:64
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 32405675000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:43
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 32805735000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:43, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 32805745000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:43, rx_data:43
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 32805745000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (82/82) *** tx_data:43, rx_data:43
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 32805745000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 33205805000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:223, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 33205815000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:223, rx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 33205815000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (83/83) *** tx_data:223, rx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 33205815000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 33605875000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:229, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 33605885000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:229, rx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 33605885000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (84/84) *** tx_data:229, rx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 33605885000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:247
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 34005945000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:247, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 34005955000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:247, rx_data:247
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 34005955000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (85/85) *** tx_data:247, rx_data:247
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 34005955000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 34406015000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:252, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 34406025000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:252, rx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 34406025000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (86/86) *** tx_data:252, rx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 34406025000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 34806085000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:1, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 34806095000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:1, rx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 34806095000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (87/87) *** tx_data:1, rx_data:1
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 34806095000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:101
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 35206155000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:101, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 35206165000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:101, rx_data:101
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 35206165000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (88/88) *** tx_data:101, rx_data:101
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 35206165000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 35606225000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:252, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 35606235000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:252, rx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 35606235000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (89/89) *** tx_data:252, rx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 35606235000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:101
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 36006295000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:101, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 36006305000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:101, rx_data:101
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 36006305000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (90/90) *** tx_data:101, rx_data:101
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 36006305000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:147
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 36406365000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:147, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 36406375000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:147, rx_data:147
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 36406375000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (91/91) *** tx_data:147, rx_data:147
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 36406375000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 36806435000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:0, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 36806445000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:0, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 36806445000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (92/92) *** tx_data:0, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 36806445000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:57
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 37206505000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:57, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 37206515000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:57, rx_data:57
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 37206515000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (93/93) *** tx_data:57, rx_data:57
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 37206515000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:221
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 37606575000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:221, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 37606585000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:221, rx_data:221
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 37606585000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (94/94) *** tx_data:221, rx_data:221
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 37606585000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:72
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 38006645000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:72, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 38006655000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:72, rx_data:72
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 38006655000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (95/95) *** tx_data:72, rx_data:72
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 38006655000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:31
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 38406715000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:31, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 38406725000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:31, rx_data:31
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 38406725000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (96/96) *** tx_data:31, rx_data:31
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 38406725000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:178
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 38806785000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:178, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 38806795000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:178, rx_data:178
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 38806795000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (97/97) *** tx_data:178, rx_data:178
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 38806795000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:211
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 39206855000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:211, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 39206865000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:211, rx_data:211
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 39206865000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (98/98) *** tx_data:211, rx_data:211
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 39206865000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 39606925000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:107, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 39606935000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 39606935000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (99/99) *** tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 39606935000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:232
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 40006995000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:232, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 40007005000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:232, rx_data:232
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 40007005000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (100/100) *** tx_data:232, rx_data:232
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 40007005000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:200
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 40407065000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:200, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 40407075000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:200, rx_data:200
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 40407075000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (101/101) *** tx_data:200, rx_data:200
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 40407075000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:56
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 40807135000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:56, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 40807145000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:56, rx_data:56
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 40807145000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (102/102) *** tx_data:56, rx_data:56
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 40807145000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:207
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 41207205000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:207, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 41207215000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:207, rx_data:207
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 41207215000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (103/103) *** tx_data:207, rx_data:207
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 41207215000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 41607275000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:238, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 41607285000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:238, rx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 41607285000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (104/104) *** tx_data:238, rx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 41607285000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:34
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 42007345000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:34, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 42007355000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:34, rx_data:34
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 42007355000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (105/105) *** tx_data:34, rx_data:34
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 42007355000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:160
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 42407415000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:160, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 42407425000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:160, rx_data:160
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 42407425000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (106/106) *** tx_data:160, rx_data:160
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 42407425000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 42807485000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:186, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 42807495000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:186, rx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 42807495000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (107/107) *** tx_data:186, rx_data:186
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 42807495000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:69
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 43207555000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:69, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 43207565000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:69, rx_data:69
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 43207565000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (108/108) *** tx_data:69, rx_data:69
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 43207565000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:212
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 43607625000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:212, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 43607635000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:212, rx_data:212
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 43607635000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (109/109) *** tx_data:212, rx_data:212
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 43607635000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:17
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 44007695000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:17, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 44007705000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:17, rx_data:17
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 44007705000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (110/110) *** tx_data:17, rx_data:17
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 44007705000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:18
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 44407765000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:18, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 44407775000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:18, rx_data:18
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 44407775000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (111/111) *** tx_data:18, rx_data:18
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 44407775000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:126
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 44807835000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:126, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 44807845000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:126, rx_data:126
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 44807845000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (112/112) *** tx_data:126, rx_data:126
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 44807845000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:44
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 45207905000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:44, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 45207915000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:44, rx_data:44
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 45207915000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (113/113) *** tx_data:44, rx_data:44
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 45207915000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:120
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 45607975000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:120, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 45607985000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:120, rx_data:120
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 45607985000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (114/114) *** tx_data:120, rx_data:120
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 45607985000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 46008045000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:123, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 46008055000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:123, rx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 46008055000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (115/115) *** tx_data:123, rx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 46008055000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 46408115000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:197, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 46408125000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:197, rx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 46408125000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (116/116) *** tx_data:197, rx_data:197
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 46408125000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:76
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 46808185000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:76, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 46808195000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:76, rx_data:76
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 46808195000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (117/117) *** tx_data:76, rx_data:76
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 46808195000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:74
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 47208255000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:74, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 47208265000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:74, rx_data:74
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 47208265000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (118/118) *** tx_data:74, rx_data:74
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 47208265000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:135
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 47608325000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:135, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 47608335000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:135, rx_data:135
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 47608335000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (119/119) *** tx_data:135, rx_data:135
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 47608335000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:41
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 48008395000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:41, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 48008405000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:41, rx_data:41
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 48008405000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (120/120) *** tx_data:41, rx_data:41
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 48008405000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:26
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 48408465000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:26, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 48408475000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:26, rx_data:26
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 48408475000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (121/121) *** tx_data:26, rx_data:26
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 48408475000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 48808535000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:238, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 48808545000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:238, rx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 48808545000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (122/122) *** tx_data:238, rx_data:238
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 48808545000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:106
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 49208605000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:106, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 49208615000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:106, rx_data:106
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 49208615000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (123/123) *** tx_data:106, rx_data:106
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 49208615000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:171
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 49608675000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:171, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 49608685000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:171, rx_data:171
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 49608685000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (124/124) *** tx_data:171, rx_data:171
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 49608685000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:74
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 50008745000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:74, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 50008755000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:74, rx_data:74
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 50008755000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (125/125) *** tx_data:74, rx_data:74
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 50008755000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:14
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 50408815000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:14, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 50408825000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:14, rx_data:14
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 50408825000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (126/126) *** tx_data:14, rx_data:14
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 50408825000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:124
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 50808885000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:124, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 50808895000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:124, rx_data:124
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 50808895000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (127/127) *** tx_data:124, rx_data:124
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 50808895000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:61
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 51208955000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:61, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 51208965000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:61, rx_data:61
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 51208965000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (128/128) *** tx_data:61, rx_data:61
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 51208965000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:171
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 51609025000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:171, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 51609035000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:171, rx_data:171
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 51609035000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (129/129) *** tx_data:171, rx_data:171
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 51609035000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:100
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 52009095000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:100, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 52009105000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:100, rx_data:100
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 52009105000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (130/130) *** tx_data:100, rx_data:100
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 52009105000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:148
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 52409165000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:148, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 52409175000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:148, rx_data:148
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 52409175000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (131/131) *** tx_data:148, rx_data:148
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 52409175000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 52809235000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:233, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 52809245000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:233, rx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 52809245000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (132/132) *** tx_data:233, rx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 52809245000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 53209305000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:107, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 53209315000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 53209315000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (133/133) *** tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 53209315000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:174
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 53609375000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:174, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 53609385000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:174, rx_data:174
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 53609385000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (134/134) *** tx_data:174, rx_data:174
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 53609385000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:2
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 54009445000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:2, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 54009455000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:2, rx_data:2
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 54009455000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (135/135) *** tx_data:2, rx_data:2
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 54009455000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:51
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 54409515000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:51, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 54409525000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:51, rx_data:51
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 54409525000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (136/136) *** tx_data:51, rx_data:51
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 54409525000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:99
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 54809585000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:99, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 54809595000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:99, rx_data:99
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 54809595000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (137/137) *** tx_data:99, rx_data:99
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 54809595000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:38
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 55209655000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:38, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 55209665000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:38, rx_data:38
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 55209665000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (138/138) *** tx_data:38, rx_data:38
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 55209665000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:128
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 55609725000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:128, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 55609735000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:128, rx_data:128
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 55609735000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (139/139) *** tx_data:128, rx_data:128
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 55609735000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 56009795000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:229, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 56009805000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:229, rx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 56009805000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (140/140) *** tx_data:229, rx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 56009805000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 56409865000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:107, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 56409875000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 56409875000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (141/141) *** tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 56409875000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 56809935000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:233, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 56809945000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:233, rx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 56809945000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (142/142) *** tx_data:233, rx_data:233
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 56809945000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:104
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 57210005000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:104, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 57210015000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:104, rx_data:104
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 57210015000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (143/143) *** tx_data:104, rx_data:104
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 57210015000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:114
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 57610075000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:114, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 57610085000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:114, rx_data:114
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 57610085000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (144/144) *** tx_data:114, rx_data:114
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 57610085000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 58010145000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:184, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 58010155000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:184, rx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 58010155000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (145/145) *** tx_data:184, rx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 58010155000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:122
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 58410215000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:122, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 58410225000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:122, rx_data:122
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 58410225000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (146/146) *** tx_data:122, rx_data:122
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 58410225000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:141
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 58810285000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:141, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 58810295000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:141, rx_data:141
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 58810295000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (147/147) *** tx_data:141, rx_data:141
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 58810295000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:226
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 59210355000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:226, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 59210365000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:226, rx_data:226
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 59210365000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (148/148) *** tx_data:226, rx_data:226
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 59210365000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:165
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 59610425000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:165, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 59610435000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:165, rx_data:165
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 59610435000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (149/149) *** tx_data:165, rx_data:165
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 59610435000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:205
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 60010495000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:205, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 60010505000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:205, rx_data:205
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 60010505000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (150/150) *** tx_data:205, rx_data:205
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 60010505000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 60410565000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:194, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 60410575000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:194, rx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 60410575000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (151/151) *** tx_data:194, rx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 60410575000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:185
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 60810635000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:185, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 60810645000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:185, rx_data:185
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 60810645000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (152/152) *** tx_data:185, rx_data:185
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 60810645000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:136
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 61210705000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:136, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 61210715000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:136, rx_data:136
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 61210715000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (153/153) *** tx_data:136, rx_data:136
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 61210715000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:118
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 61610775000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:118, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 61610785000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:118, rx_data:118
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 61610785000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (154/154) *** tx_data:118, rx_data:118
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 61610785000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:255
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 62010845000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:255, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 62010855000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:255, rx_data:255
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 62010855000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (155/155) *** tx_data:255, rx_data:255
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 62010855000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:178
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 62410915000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:178, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 62410925000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:178, rx_data:178
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 62410925000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (156/156) *** tx_data:178, rx_data:178
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 62410925000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 62810985000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:107, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 62810995000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 62810995000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (157/157) *** tx_data:107, rx_data:107
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 62810995000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:177
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 63211055000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:177, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 63211065000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:177, rx_data:177
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 63211065000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (158/158) *** tx_data:177, rx_data:177
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 63211065000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:85
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 63611125000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:85, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 63611135000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:85, rx_data:85
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 63611135000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (159/159) *** tx_data:85, rx_data:85
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 63611135000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:149
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 64011195000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:149, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 64011205000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:149, rx_data:149
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 64011205000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (160/160) *** tx_data:149, rx_data:149
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 64011205000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 64411265000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:252, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 64411275000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:252, rx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 64411275000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (161/161) *** tx_data:252, rx_data:252
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 64411275000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:124
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 64811335000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:124, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 64811345000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:124, rx_data:124
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 64811345000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (162/162) *** tx_data:124, rx_data:124
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 64811345000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:15
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 65211405000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:15, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 65211415000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:15, rx_data:15
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 65211415000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (163/163) *** tx_data:15, rx_data:15
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 65211415000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:231
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 65611475000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:231, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 65611485000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:231, rx_data:231
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 65611485000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (164/164) *** tx_data:231, rx_data:231
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 65611485000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:149
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 66011545000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:149, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 66011555000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:149, rx_data:149
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 66011555000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (165/165) *** tx_data:149, rx_data:149
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 66011555000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:87
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 66411615000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:87, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 66411625000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:87, rx_data:87
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 66411625000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (166/166) *** tx_data:87, rx_data:87
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 66411625000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:174
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 66811685000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:174, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 66811695000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:174, rx_data:174
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 66811695000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (167/167) *** tx_data:174, rx_data:174
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 66811695000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:76
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 67211755000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:76, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 67211765000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:76, rx_data:76
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 67211765000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (168/168) *** tx_data:76, rx_data:76
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 67211765000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:176
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 67611825000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:176, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 67611835000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:176, rx_data:176
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 67611835000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (169/169) *** tx_data:176, rx_data:176
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 67611835000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:248
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 68011895000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:248, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 68011905000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:248, rx_data:248
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 68011905000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (170/170) *** tx_data:248, rx_data:248
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 68011905000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:167
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 68411965000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:167, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 68411975000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:167, rx_data:167
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 68411975000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (171/171) *** tx_data:167, rx_data:167
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 68411975000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:242
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 68812035000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:242, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 68812045000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:242, rx_data:242
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 68812045000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (172/172) *** tx_data:242, rx_data:242
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 68812045000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 69212105000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:123, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 69212115000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:123, rx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 69212115000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (173/173) *** tx_data:123, rx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 69212115000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:91
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 69612175000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:91, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 69612185000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:91, rx_data:91
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 69612185000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (174/174) *** tx_data:91, rx_data:91
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 69612185000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:134
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 70012245000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:134, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 70012255000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:134, rx_data:134
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 70012255000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (175/175) *** tx_data:134, rx_data:134
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 70012255000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:132
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 70412315000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:132, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 70412325000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:132, rx_data:132
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 70412325000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (176/176) *** tx_data:132, rx_data:132
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 70412325000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:65
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 70812385000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:65, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 70812395000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:65, rx_data:65
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 70812395000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (177/177) *** tx_data:65, rx_data:65
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 70812395000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:58
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 71212455000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:58, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 71212465000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:58, rx_data:58
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 71212465000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (178/178) *** tx_data:58, rx_data:58
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 71212465000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:92
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 71612525000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:92, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 71612535000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:92, rx_data:92
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 71612535000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (179/179) *** tx_data:92, rx_data:92
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 71612535000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:27
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 72012595000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:27, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 72012605000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:27, rx_data:27
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 72012605000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (180/180) *** tx_data:27, rx_data:27
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 72012605000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 72412665000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:194, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 72412675000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:194, rx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 72412675000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (181/181) *** tx_data:194, rx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 72412675000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:63
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 72812735000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:63, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 72812745000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:63, rx_data:63
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 72812745000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (182/182) *** tx_data:63, rx_data:63
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 72812745000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:9
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 73212805000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:9, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 73212815000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:9, rx_data:9
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 73212815000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (183/183) *** tx_data:9, rx_data:9
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 73212815000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 73612875000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:123, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 73612885000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:123, rx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 73612885000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (184/184) *** tx_data:123, rx_data:123
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 73612885000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:207
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 74012945000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:207, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 74012955000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:207, rx_data:207
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 74012955000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (185/185) *** tx_data:207, rx_data:207
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 74012955000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:228
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 74413015000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:228, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 74413025000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:228, rx_data:228
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 74413025000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (186/186) *** tx_data:228, rx_data:228
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 74413025000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:150
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 74813085000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:150, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 74813095000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:150, rx_data:150
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 74813095000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (187/187) *** tx_data:150, rx_data:150
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 74813095000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:47
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 75213155000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:47, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 75213165000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:47, rx_data:47
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 75213165000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (188/188) *** tx_data:47, rx_data:47
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 75213165000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 75613225000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:194, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 75613235000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:194, rx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 75613235000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (189/189) *** tx_data:194, rx_data:194
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 75613235000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:254
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 76013295000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:254, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 76013305000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:254, rx_data:254
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 76013305000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (190/190) *** tx_data:254, rx_data:254
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 76013305000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:224
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 76413365000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:224, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 76413375000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:224, rx_data:224
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 76413375000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (191/191) *** tx_data:224, rx_data:224
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 76413375000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:246
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 76813435000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:246, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 76813445000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:246, rx_data:246
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 76813445000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (192/192) *** tx_data:246, rx_data:246
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 76813445000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:249
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 77213505000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:249, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 77213515000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:249, rx_data:249
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 77213515000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (193/193) *** tx_data:249, rx_data:249
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 77213515000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:63
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 77613575000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:63, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 77613585000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:63, rx_data:63
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 77613585000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (194/194) *** tx_data:63, rx_data:63
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 77613585000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:126
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 78013645000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:126, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 78013655000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:126, rx_data:126
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 78013655000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (195/195) *** tx_data:126, rx_data:126
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 78013655000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 78413715000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:24, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 78413725000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:24, rx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 78413725000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (196/196) *** tx_data:24, rx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 78413725000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:179
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 78813785000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:179, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 78813795000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:179, rx_data:179
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 78813795000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (197/197) *** tx_data:179, rx_data:179
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 78813795000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:7
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 79213855000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:7, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 79213865000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:7, rx_data:7
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 79213865000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (198/198) *** tx_data:7, rx_data:7
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 79213865000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:154
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 79613925000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:154, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 79613935000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:154, rx_data:154
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 79613935000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (199/199) *** tx_data:154, rx_data:154
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 79613935000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 80013995000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:220, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 80014005000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:220, rx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 80014005000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (200/200) *** tx_data:220, rx_data:220
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 80014005000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:156
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 80414065000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:156, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 80414075000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:156, rx_data:156
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 80414075000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (201/201) *** tx_data:156, rx_data:156
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 80414075000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 80814135000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:184, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 80814145000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:184, rx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 80814145000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (202/202) *** tx_data:184, rx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 80814145000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:117
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 81214205000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:117, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 81214215000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:117, rx_data:117
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 81214215000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (203/203) *** tx_data:117, rx_data:117
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 81214215000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:142
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 81614275000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:142, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 81614285000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:142, rx_data:142
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 81614285000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (204/204) *** tx_data:142, rx_data:142
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 81614285000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:99
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 82014345000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:99, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 82014355000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:99, rx_data:99
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 82014355000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (205/205) *** tx_data:99, rx_data:99
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 82014355000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:25
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 82414415000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:25, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 82414425000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:25, rx_data:25
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 82414425000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (206/206) *** tx_data:25, rx_data:25
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 82414425000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:68
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 82814485000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:68, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 82814495000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:68, rx_data:68
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 82814495000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (207/207) *** tx_data:68, rx_data:68
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 82814495000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 83214555000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:235, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 83214565000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:235, rx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 83214565000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (208/208) *** tx_data:235, rx_data:235
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 83214565000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:203
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 83614625000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:203, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 83614635000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:203, rx_data:203
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 83614635000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (209/209) *** tx_data:203, rx_data:203
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 83614635000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:81
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 84014695000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:81, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 84014705000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:81, rx_data:81
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 84014705000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (210/210) *** tx_data:81, rx_data:81
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 84014705000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:36
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 84414765000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:36, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 84414775000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:36, rx_data:36
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 84414775000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (211/211) *** tx_data:36, rx_data:36
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 84414775000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:51
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 84814835000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:51, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 84814845000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:51, rx_data:51
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 84814845000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (212/212) *** tx_data:51, rx_data:51
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 84814845000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:70
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 85214905000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:70, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 85214915000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:70, rx_data:70
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 85214915000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (213/213) *** tx_data:70, rx_data:70
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 85214915000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:106
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 85614975000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:106, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 85614985000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:106, rx_data:106
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 85614985000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (214/214) *** tx_data:106, rx_data:106
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 85614985000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:163
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 86015045000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:163, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 86015055000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:163, rx_data:163
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 86015055000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (215/215) *** tx_data:163, rx_data:163
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 86015055000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:11
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 86415115000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:11, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 86415125000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:11, rx_data:11
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 86415125000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (216/216) *** tx_data:11, rx_data:11
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 86415125000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:198
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 86815185000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:198, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 86815195000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:198, rx_data:198
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 86815195000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (217/217) *** tx_data:198, rx_data:198
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 86815195000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 87215255000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:184, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 87215265000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:184, rx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 87215265000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (218/218) *** tx_data:184, rx_data:184
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 87215265000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:111
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 87615325000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:111, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 87615335000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:111, rx_data:111
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 87615335000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (219/219) *** tx_data:111, rx_data:111
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 87615335000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:205
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 88015395000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:205, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 88015405000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:205, rx_data:205
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 88015405000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (220/220) *** tx_data:205, rx_data:205
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 88015405000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:152
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 88415465000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:152, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 88415475000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:152, rx_data:152
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 88415475000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (221/221) *** tx_data:152, rx_data:152
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 88415475000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 88815535000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:217, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 88815545000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:217, rx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 88815545000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (222/222) *** tx_data:217, rx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 88815545000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:203
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 89215605000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:203, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 89215615000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:203, rx_data:203
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 89215615000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (223/223) *** tx_data:203, rx_data:203
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 89215615000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 89615675000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:229, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 89615685000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:229, rx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 89615685000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (224/224) *** tx_data:229, rx_data:229
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 89615685000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:65
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 90015745000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:65, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 90015755000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:65, rx_data:65
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 90015755000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (225/225) *** tx_data:65, rx_data:65
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 90015755000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:137
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 90415815000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:137, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 90415825000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:137, rx_data:137
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 90415825000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (226/226) *** tx_data:137, rx_data:137
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 90415825000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:170
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 90815885000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:170, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 90815895000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:170, rx_data:170
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 90815895000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (227/227) *** tx_data:170, rx_data:170
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 90815895000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 91215955000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:24, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 91215965000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:24, rx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 91215965000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (228/228) *** tx_data:24, rx_data:24
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 91215965000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:67
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 91616025000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:67, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 91616035000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:67, rx_data:67
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 91616035000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (229/229) *** tx_data:67, rx_data:67
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 91616035000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:218
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 92016095000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:218, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 92016105000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:218, rx_data:218
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 92016105000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (230/230) *** tx_data:218, rx_data:218
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 92016105000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:146
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 92416165000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:146, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 92416175000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:146, rx_data:146
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 92416175000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (231/231) *** tx_data:146, rx_data:146
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 92416175000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:155
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 92816235000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:155, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 92816245000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:155, rx_data:155
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 92816245000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (232/232) *** tx_data:155, rx_data:155
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 92816245000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:250
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 93216305000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:250, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 93216315000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:250, rx_data:250
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 93216315000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (233/233) *** tx_data:250, rx_data:250
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 93216315000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:72
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 93616375000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:72, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 93616385000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:72, rx_data:72
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 93616385000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (234/234) *** tx_data:72, rx_data:72
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 93616385000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:9
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 94016445000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:9, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 94016455000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:9, rx_data:9
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 94016455000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (235/235) *** tx_data:9, rx_data:9
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 94016455000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:212
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 94416515000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:212, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 94416525000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:212, rx_data:212
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 94416525000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (236/236) *** tx_data:212, rx_data:212
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 94416525000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:134
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 94816585000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:134, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 94816595000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:134, rx_data:134
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 94816595000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (237/237) *** tx_data:134, rx_data:134
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 94816595000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:86
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 95216655000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:86, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 95216665000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:86, rx_data:86
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 95216665000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (238/238) *** tx_data:86, rx_data:86
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 95216665000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:113
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 95616725000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:113, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 95616735000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:113, rx_data:113
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 95616735000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (239/239) *** tx_data:113, rx_data:113
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 95616735000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:201
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 96016795000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:201, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 96016805000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:201, rx_data:201
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 96016805000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (240/240) *** tx_data:201, rx_data:201
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 96016805000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:139
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 96416865000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:139, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 96416875000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:139, rx_data:139
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 96416875000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (241/241) *** tx_data:139, rx_data:139
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 96416875000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:45
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 96816935000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:45, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 96816945000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:45, rx_data:45
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 96816945000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (242/242) *** tx_data:45, rx_data:45
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 96816945000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:84
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 97217005000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:84, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 97217015000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:84, rx_data:84
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 97217015000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (243/243) *** tx_data:84, rx_data:84
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 97217015000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:168
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 97617075000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:168, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 97617085000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:168, rx_data:168
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 97617085000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (244/244) *** tx_data:168, rx_data:168
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 97617085000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 98017145000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:217, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 98017155000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:217, rx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 98017155000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (245/245) *** tx_data:217, rx_data:217
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 98017155000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:97
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 98417215000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:97, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 98417225000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:97, rx_data:97
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 98417225000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (246/246) *** tx_data:97, rx_data:97
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 98417225000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:140
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 98817285000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:140, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 98817295000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:140, rx_data:140
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 98817295000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (247/247) *** tx_data:140, rx_data:140
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 98817295000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:222
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 99217355000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:222, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 99217365000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:222, rx_data:222
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 99217365000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (248/248) *** tx_data:222, rx_data:222
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 99217365000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:112
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 99617425000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:112, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 99617435000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:112, rx_data:112
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 99617435000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (249/249) *** tx_data:112, rx_data:112
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 99617435000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 100017495000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:223, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 100017505000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:223, rx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 100017505000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (250/250) *** tx_data:223, rx_data:223
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 100017505000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:241
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 100417565000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:241, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 100417575000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:241, rx_data:241
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 100417575000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (251/251) *** tx_data:241, rx_data:241
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 100417575000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:17
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 100817635000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:17, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 100817645000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:17, rx_data:17
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 100817645000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (252/252) *** tx_data:17, rx_data:17
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 100817645000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:96
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 101217705000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:96, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 101217715000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:96, rx_data:96
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 101217715000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (253/253) *** tx_data:96, rx_data:96
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 101217715000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:138
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 101617775000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:138, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 101617785000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:138, rx_data:138
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 101617785000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (254/254) *** tx_data:138, rx_data:138
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 101617785000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:20
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 102017845000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:20, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 102017855000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:20, rx_data:20
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 102017855000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (255/255) *** tx_data:20, rx_data:20
+UVM_INFO ./tb/tb_i2c_top.sv(66) @ 102017855000: uvm_test_top.ENV.AGT.SQR@@SEQ [SEQ] I2C item to driver tx_data:108
+UVM_INFO ./tb/tb_i2c_top.sv(196) @ 102417915000: uvm_test_top.ENV.AGT.DRV [DRV] Drive DUT tx_data:108, rx_data:0
+UVM_INFO ./tb/tb_i2c_top.sv(125) @ 102417925000: uvm_test_top.ENV.AGT.MON [MON] sampled tx_data:108, rx_data:108
+UVM_INFO ./tb/tb_i2c_top.sv(249) @ 102417925000: uvm_test_top.ENV.SCB [SCB] *** I2C TEST PASSED (256/256) *** tx_data:108, rx_data:108
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_objection.svh(1276) @ 102417925000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ./tb/tb_i2c_top.sv(301) @ 102417925000: uvm_test_top.ENV.SCB [SCB_STATS] 
+============================================================
+              SCOREBOARD I2C TEST SUMMARY
+============================================================
+ Total Transactions:        256
+ Successful Transactions:   256
+ Failed Transactions:       0
+ Success Rate:              100.00 %
+============================================================
+
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 102417925000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_report_server.svh(904) @ 102417925000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO : 1029
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]   256
+[MON]   256
+[RNTST]     1
+[SCB]   256
+[SCB_STATS]     1
+[SEQ]   256
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+
+$finish called from file "/tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time         102417925000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 102417925000 ps
+CPU Time:      9.100 seconds;       Data structure size:   0.6Mb
+Sun Nov 16 17:09:25 2025
